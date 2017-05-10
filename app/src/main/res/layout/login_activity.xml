@@ -48,17 +48,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/textview_logowanie"
-        android:layout_toRightOf="@+id/textview_logowanie"
+        android:layout_centerHorizontal="true"
         android:text="Zaloguj" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/textview_logowanie"
-        android:layout_toStartOf="@+id/textview_logowanie"
-        android:text="Anuluj" />
+
 
 </RelativeLayout>
